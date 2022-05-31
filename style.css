@@ -5,9 +5,103 @@
 body {
   max-width: 1080px;
   margin: auto;
+  background-color: hsl(217, 54%, 11%);
 }
 
 .card {
-  max-width: 250px;
+  width: 280px;
+  height: 500px;
   margin: auto;
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: 0px 0px 30px 40px hsl(223, 49%, 8%);
+  position: relative;
+  border-radius: 5%;
+  padding: 20px;
+  margin-top: 25vh;
+}
+
+.equ {
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
+}
+
+.elink {
+  color: white;
+  text-decoration: none;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  padding-top: rem;
+}
+
+p {
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  display: inline-block;
+}
+
+.eth {
+  display: inline-block;
+  position: relative;
+  margin-top: 0rem;
+}
+
+.peth {
+  color: aqua;
+  position: absolute;
+  width: 100px;
+  transform: translate(5px, -17px);
+}
+
+.text {
+  margin-top: 1rem;
+  opacity: 0.5;
+  margin-bottom: 1.5rem;
+}
+
+.dayl {
+  position: absolute;
+  transform: translate(5px, -2px);
+  display: inline;
+  margin: 0;
+  width: 10rem;
+  font-family: "Outfit", sans-serif;
+  color: rgb(125, 175, 231);
+  font-weight: 500;
+}
+
+.day {
+  position: absolute;
+  transform: translate(140px, -22px);
+}
+
+.jules {
+  position: absolute;
+  transform: scale(0.3) translate(-150px, -100px);
+}
+
+.creator_link {
+  position: absolute;
+  transform: translate(50px, 10px);
+  font-family: "Outfit", sans-serif;
+  color: rgb(125, 175, 231);
+  letter-spacing: 1.5;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.bor {
+  border-top: 2px solid white;
+  opacity: 0.1;
+  margin-top: 1rem;
+}
+
+a:hover {
+  color: aqua;
 }
